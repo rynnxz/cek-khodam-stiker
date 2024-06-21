@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cek Khodam</h1>
+
+        <div id="popup" style="display: none;">
+            <p>Mohon isi nama kamu terlebih dahulu!</p>
+            <button id="closePopupBtn">Tutup</button>
+        </div>
+
+        <div class="khodam-container">
+            <div id="result" class="result">
+                <p>Khodam mu muncul disini</p>
+            </div>
+            <div id="image">
+                <img src="img/khodam.jpg">
+            </div>
+            <input type="text" name="nama" id="nama" class="nama" placeholder="nama kamu">
+            <button id="cekKhodamBtn" class="khodam-btn">CEK KHODAM MU!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
